@@ -1,0 +1,25 @@
+{
+	"name": "Bitbucket Orderer",
+	"version": "0.0.1",
+	"manifest_version": 2,
+	"description": "Gargh",
+	"homepage_url": "https://ashleigh.dev",
+	"icons": {
+		"16": "icons/icon16.png",
+		"48": "icons/icon48.png",
+		"128": "icons/icon128.png"
+	},
+	"content_scripts": [
+		{
+			"matches": [
+				"https://bitbucket.ingg.com/*"
+			],
+			"css": [
+				"css/bitfuqet.css"
+			]
+		}
+	],
+	"permissions": [
+		"https://bitbucket.ingg.com/*"
+	]
+}

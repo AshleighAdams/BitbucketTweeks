@@ -1,0 +1,5 @@
+#pull-request-activity
+{
+	display: flex;
+	flex-direction: column-reverse;
+}
