@@ -27,3 +27,9 @@ div.detail > .commits-table tbody > tr
 {
 	border-top: 0 !important;
 }
+
+/* compress the pr labels */
+.rq-labels-table-header {
+    min-width: 200px;
+    width: 25%;
+}
