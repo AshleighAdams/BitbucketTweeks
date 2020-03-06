@@ -1,0 +1,5 @@
+/* compress the pr labels */
+.rq-labels-table-header {
+	min-width: 200px;
+	width: 20%;
+}

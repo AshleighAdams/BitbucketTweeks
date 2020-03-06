@@ -1,5 +1,5 @@
 {
-	"name": "Bitbucket Orderer",
+	"name": "Bitbucket Tweeks",
 	"version": "0.0.1",
 	"manifest_version": 2,
 	"description": "Gargh",
@@ -14,12 +14,20 @@
 			"matches": [
 				"https://bitbucket.ingg.com/*"
 			],
-			"css": [
-				"css/bitfuqet.css"
+			"js": [
+				"js/jquery-3.4.1.min.js",
+				"js/injector.js"
 			]
 		}
 	],
 	"permissions": [
-		"https://bitbucket.ingg.com/*"
-	]
+		"storage",
+		"*://*/*"
+	],
+	"browser_action": {
+		"default_title": "Bitbucket Tweeks",
+		"default_icon": "icons/icon128.png",
+		"default_popup": "src/popup.html"
+	},
+	"web_accessible_resources": [ "css/*" ]
 }
