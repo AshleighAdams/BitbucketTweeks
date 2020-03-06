@@ -2,7 +2,7 @@
 	"name": "Bitbucket Tweeks",
 	"version": "0.0.1",
 	"manifest_version": 2,
-	"description": "Gargh",
+	"description": "Bitbucket has some questionable design ideas...",
 	"homepage_url": "https://ashleigh.dev",
 	"icons": {
 		"16": "icons/icon16.png",

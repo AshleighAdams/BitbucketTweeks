@@ -3,11 +3,23 @@
 <head>
 	<script src="../js/jquery-3.4.1.min.js"></script>
 	<script src="popup.js"></script>
+	<style>
+		[type="checkbox"]
+		{
+			vertical-align: middle;
+		}
+	</style>
 </head>
 
 <body style="width: 200px">
-	<input id="chrono" type="checkbox">Chronological order</input><br/>
-	<input id="shrink_lbl" type="checkbox">Shrink labels</input>
+	<h1>Bitbucket Tweeks</h1>
+	<input id="chrono" type="checkbox" />
+	<label for="chrono">Order PRs chronologically</label>
+	<br/>
+	
+	<input id="shrink_lbl" type="checkbox" />
+	<label for="shrink_lbl">Shrink label column</label>
+	<br />
 </body>
 
 </html>
