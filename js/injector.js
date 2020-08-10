@@ -2,11 +2,6 @@
 var is_bitbucket = $("#logo").hasClass("bitbucket-header-logo")
 
 if (is_bitbucket) {
-	$(".pull-request-activity-content").hide()
-	setTimeout(function () {
-		$(".pull-request-activity-content").show()
-	}, 200)
-
 	chrome.storage.sync.get(["chrono", "shrink_lbl"], function(settings) {
 
 		if(settings.chrono) {
