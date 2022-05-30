@@ -1,3 +1,31 @@
+/* bitbucket 7 */
+
+.activities
+{
+	display: flex;
+	flex-direction: column-reverse;
+}
+
+table.changed-commits-table > tbody
+{
+	display: flex;
+	flex-direction: column-reverse;
+	border-spacing: 2px;
+}
+.changed-commits-table .commit-message-cell
+{
+	max-width: 512px;
+}
+
+/* condense the UI to be sane, removing all those lines and padding */
+
+.activity-item
+{
+	padding: 2px 2px !important;
+}
+
+/* bitbucket 6 */
+
 #pull-request-activity
 {
 	display: flex;
