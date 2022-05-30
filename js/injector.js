@@ -9,7 +9,7 @@ if (is_bitbucket) {
 				$("<link>")
 					.attr("rel","stylesheet")
 					.attr("type","text/css")
-					.attr("href", chrome.extension.getURL("css/chronological.css"))
+					.attr("href", chrome.runtime.getURL("css/chronological.css"))
 			);
 		}
 
@@ -18,7 +18,7 @@ if (is_bitbucket) {
 				$("<link>")
 					.attr("rel","stylesheet")
 					.attr("type","text/css")
-					.attr("href", chrome.extension.getURL("css/shrink_lbl.css"))
+					.attr("href", chrome.runtime.getURL("css/shrink_lbl.css"))
 			);
 		}
 

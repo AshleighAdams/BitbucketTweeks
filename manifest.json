@@ -1,7 +1,7 @@
 {
 	"name": "Bitbucket Tweeks",
-	"version": "0.0.2",
-	"manifest_version": 2,
+	"version": "0.0.3",
+	"manifest_version": 3,
 	"description": "Bitbucket has some questionable design ideas...",
 	"homepage_url": "https://ashleigh.dev",
 	"icons": {
@@ -21,13 +21,18 @@
 		}
 	],
 	"permissions": [
-		"storage",
+		"storage"
+	],
+	"host_permissions": [
 		"*://*/*"
 	],
-	"browser_action": {
+	"action": {
 		"default_title": "Bitbucket Tweeks",
 		"default_icon": "icons/icon128.png",
 		"default_popup": "src/popup.html"
 	},
-	"web_accessible_resources": [ "css/*" ]
+	"web_accessible_resources": [{
+		"resources": [ "css/*", "js/*" ],
+		"matches": [ "*://*/*" ]
+	}]
 }
